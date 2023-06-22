@@ -1,5 +1,5 @@
 body {
-    font-family: roboto, sans-serif;
+    font-family: "roboto", sans-serif; 
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -30,7 +30,7 @@ button {
     font-family: 'Raleway';
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.17;
+    line-height: 1.13;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -66,16 +66,16 @@ button {
     color: #2E2F42;
 }
 
-.address {
-    font-family: Roboto;
-
-}
-
-.header-page {
-    font-size: 16px;
+.header-address {
+font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
     color: #434455;
+    font-weight: 153;
+}
+
+.header-page {
+    
 }
 
 .header-address:hover,
@@ -211,4 +211,22 @@ button {
     line-height: 24px;
     letter-spacing: 0.32px;
     color: #F4F4FD;
+}
+/* PORTFOLIO */
+
+.portfolio-page{
+    
+}
+
+.button-filters{
+    
+}
+.section-nav{
+    
+}
+.section-item{
+    
+}
+.section-link{
+    
 }
