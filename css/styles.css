@@ -14,8 +14,8 @@
 
 body {
     font-family: var(--primary-font);
-    color: var(--white);
-    
+background-color: var(--white);
+    text-decoration: none;
     list-style-type: none;
 }
 
@@ -61,7 +61,7 @@ button {
 
 }
 .header-list {
-  
+  font-style: normal;
 }
 
 .header-item {
@@ -115,7 +115,7 @@ font-size: 16px;
 }
 
 .hero-btn {
-    width: 169px;
+    font-weight: 500px;
     height: 56px;
     left: 636px;
     top: 428px;
@@ -230,8 +230,9 @@ background: var(--cloud)
 
 .button-filters{
         padding: 12px 24px;
-        color: #4D5AE5;
-        background: #E7E9FC;
+        color: var(--ocean);
+        background: var(--cornflower);
+        
 }
 .section-nav{
     justify-content: center;
