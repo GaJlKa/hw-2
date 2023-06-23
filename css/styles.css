@@ -1,5 +1,5 @@
 body {
-    font-family: "roboto", sans-serif; 
+    font-family: "Roboto", sans-serif; 
     color: #434455;
     background-color: #FFFFFF;
 }
@@ -20,15 +20,12 @@ button {
 
 /* Header */
 .header {
-    width: 1440px;
-    height: 72px;
-    left: 0px;
-    top: 0px;
+   background: #E7E9FC;
 }
 
 .logo {
     font-family: 'Raleway';
-    font-weight: 800;
+    
     font-size: 18px;
     line-height: 1.13;
     letter-spacing: 0.03em;
@@ -36,16 +33,16 @@ button {
     color: #4D5AE5;
 }
 
-.STUDIO {
+.studio {
     color: #2E2F42;
 }
 
 
-.header-nav .header-list {
-    width: 261px;
-    height: 24px;
-    left: 347px;
-    top: 24px;
+.header-nav {
+
+}
+.header-list {
+  
 }
 
 .header-item {
@@ -71,7 +68,6 @@ font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
     color: #434455;
-    font-weight: 153;
 }
 
 .header-page {
@@ -94,7 +90,7 @@ font-size: 16px;
 
 /* hero */
 .section-hero {
-    font-family: Roboto;
+    font-family: "Roboto";
     font-weight: 700;
     background: #2E2F42;
 }
@@ -117,14 +113,17 @@ font-size: 16px;
 
 /* feature */
 .feature {
-    font-family: Roboto;
+    
 }
 
 .Feature-list {}
 
 .Feature-link {
-    width: 1128px;
-    height: 104px;
+display: flex;
+    width: 264px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
 }
 
 .Feature-hero {
@@ -135,12 +134,9 @@ font-size: 16px;
 }
 
 .Feature-options {
-
-    font-weight: 400;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
-
     color: #434455;
 }
 
@@ -207,26 +203,44 @@ font-size: 16px;
 }
 
 .footer-text {
+    font-family: "Roboto";
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.32px;
     color: #F4F4FD;
 }
+
 /* PORTFOLIO */
 
 .portfolio-page{
-    
+   
 }
 
 .button-filters{
-    
+    display: flex;
+        padding: 12px 24px;
+        justify-content: center;
+        align-items: center;
+        color: #4D5AE5;
+        background: #E7E9FC;
 }
 .section-nav{
-    
+    justify-content: center;
 }
 .section-item{
-    
+    font-size: 20px;
+        line-height: 24px;
+        letter-spacing: 0.4px;
+        color: #2E2F42;
 }
 .section-link{
-    
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: 0.32px;
+        color: #434455;
 }
+
+.finger{
+   
+}
+
