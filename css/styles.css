@@ -4,6 +4,10 @@ body {
     background-color: #FFFFFF;
 }
 
+:root {
+
+}
+
 /* reset */
 a {
     text-decoration: none;
@@ -25,9 +29,9 @@ button {
 
 .logo {
     font-family: 'Raleway';
-    
+    font-weight: 800;
     font-size: 18px;
-    line-height: 1.13;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -193,8 +197,8 @@ display: flex;
 
 /* Footer */
 .footer {
-    font-family: Roboto;
-    font-weight: 700;
+    font-family: "Raleway";
+    font-weight: 800;
     background: #2E2F42;
 }
 
