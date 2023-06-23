@@ -1,14 +1,29 @@
-body {
-    font-family: "Roboto", sans-serif; 
-    color: #434455;
-    background-color: #FFFFFF;
+:root {
+    /* fons */
+    --primary-font: "Roboto", sans-serif;
+    --secondary-font: "Roboto", sans-serif;
+    /* colors */
+    --navyblue: #2E2F42;
+    ---iris: #4D5AE5;
+    --white: #ffffff;
+    --cloud: #f4f4fd;
+    --ocean: #404BBF;
+    --cornflower: #E7E9FC;
+    --slate: #434455;
 }
 
-:root {
-
+body {
+    font-family: var(--primary-font);
+    color: var(--white);
+    background-color: var(--slate);
+    list-style-type: none;
 }
 
 /* reset */
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+
 a {
     text-decoration: none;
 }
@@ -54,16 +69,13 @@ button {
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-
     color: #2E2F42;
 }
 
 .header-link {
-    font-weight: 500;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.02em;
-
     color: #2E2F42;
 }
 
@@ -86,10 +98,6 @@ font-size: 16px;
 
 /* Main */
 .main {
-
-
-
-    background: #FFFFFF;
 }
 
 /* hero */
@@ -120,7 +128,8 @@ font-size: 16px;
     
 }
 
-.Feature-list {}
+.Feature-list {
+}
 
 .Feature-link {
 display: flex;
@@ -148,7 +157,6 @@ display: flex;
 .what-we-doing {
     font-family: Roboto;
     font-weight: 700;
-
 }
 
 .Technologies-hero {
@@ -166,7 +174,7 @@ display: flex;
 
 .our-team {
     font-family: Roboto;
-
+background: #F4F4FD;
 }
 
 .our-team-hero {
@@ -221,10 +229,7 @@ display: flex;
 }
 
 .button-filters{
-    display: flex;
         padding: 12px 24px;
-        justify-content: center;
-        align-items: center;
         color: #4D5AE5;
         background: #E7E9FC;
 }
