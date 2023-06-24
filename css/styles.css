@@ -185,14 +185,18 @@ background: var(--cloud)
 }
 
 .our-team-hero {
-    font-weight: 700;
+    font-weight: 500;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: normal;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: var(--navyblue);
 }
 
-.team-work {}
+.team-work {
+    background-color: var(--white);
+}
 
 .team-work img {}
 
