@@ -12,11 +12,16 @@
     --slate: #434455;
 }
 
+.link{
+    text-decoration: none;
+}
+
 body {
     font-family: var(--primary-font);
 background-color: var(--white);
     text-decoration: none;
     list-style-type: none;
+    list-style: none
 }
 
 /* reset */
@@ -42,12 +47,14 @@ button {
    background: #E7E9FC;
 }
 
+
+
 .logo {
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: 0.03em;
+    letter-spacing: normal;
     text-transform: uppercase;
     color: var(---iris);
 }
@@ -65,24 +72,21 @@ button {
 }
 
 .header-item {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--navyblue);
+    
+    
 }
 
 .header-link {
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
+    line-height: 1.05;
+    letter-spacing: normal;
     color: var(--navyblue);
 }
 
 .header-address {
 font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.05;
+    letter-spacing: normal;
     color: var(--slate);
 }
 
@@ -109,8 +113,8 @@ font-size: 16px;
 
 .hero-title {
     font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 1.12px;
+    line-height: 1.07;
+    letter-spacing: normal;
     color: var(--white);
 }
 
@@ -119,8 +123,12 @@ font-size: 16px;
     height: 56px;
     left: 636px;
     top: 428px;
+    
+    font-size: 16px;
+    letter-spacing: normal;
     color: var(--white);
     background: var(---iris);
+    cursor: pointer;
 }
 
 /* feature */
@@ -141,15 +149,15 @@ display: flex;
 
 .Feature-hero {
     font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.4px;
+    line-height: 1.02;
+    letter-spacing: normal;
     color: var(--navyblue);
 }
 
 .Feature-options {
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.05;
+    letter-spacing: normal;
     color: var(--slate);
 }
 
@@ -161,8 +169,8 @@ display: flex;
 
 .Technologies-hero {
     font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 0.72px;
+    line-height: 1.11;
+    letter-spacing: normal;
     color: var(--navyblue);
 }
 
@@ -180,8 +188,8 @@ background: var(--cloud)
 .our-team-hero {
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
-    letter-spacing: 0.72px;
+    line-height: 1.11;
+    letter-spacing: normal;
     color: var(--navyblue);
 }
 
@@ -191,15 +199,15 @@ background: var(--cloud)
 
 .name-team {
     font-size: 20px;
-    line-height: 24px;
-    letter-spacing: 0.4px;
+    line-height: 1.02;
+    letter-spacing: normal;
     color: var(--navyblue);
 }
 
 .team-skill {
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.05;
+    letter-spacing: normal;
     color: var(--slate)
 }
 
@@ -217,8 +225,8 @@ background: var(--cloud)
 .footer-text {
     font-family: var(--primary-font);
     font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.32px;
+    line-height: 1.05;
+    letter-spacing: normal;
     color: var(--cloud)
 }
 
@@ -229,25 +237,40 @@ background: var(--cloud)
 }
 
 .button-filters{
+    font-family: var(--primary-font);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.05;
+    letter-spacing: normal;
+    cursor: pointer;
         padding: 12px 24px;
-        color: var(--ocean);
+        color: var(---iris);
         background: var(--cornflower);
-        
 }
+
+.button-filters :focus,
+.button-filters :hover{
+    background: var(--ocean) ;
+    color: var(--white);
+}
+
 .section-nav{
     justify-content: center;
 }
 .section-item{
     font-size: 20px;
-        line-height: 24px;
-        letter-spacing: 0.4px;
+        line-height: 1.02;
+        letter-spacing: normal;
         color: var(--navyblue);
 }
 .section-link{
         font-size: 16px;
-        line-height: 24px;
+        line-height: 1.05;
         letter-spacing: 0.32px;
         color: var(--slate)
+}
+.section-row{
+    
 }
 
 .finger{
