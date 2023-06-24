@@ -4,7 +4,7 @@
     --secondary-font: "Raleway", sans-serif;
     /* colors */
     --navyblue: #2E2F42;
-    ---iris: #4D5AE5;
+    --iris: #4D5AE5;
     --white: #ffffff;
     --cloud: #f4f4fd;
     --ocean: #404BBF;
@@ -56,7 +56,7 @@ button {
     line-height: 1.17;
     letter-spacing: normal;
     text-transform: uppercase;
-    color: var(---iris);
+    color: var(--iris);
 }
 
 .studio {
@@ -78,14 +78,14 @@ button {
 
 .header-link {
     font-size: 16px;
-    line-height: 1.05;
+    line-height: 1.5;
     letter-spacing: normal;
     color: var(--navyblue);
 }
 
 .header-address {
 font-size: 16px;
-    line-height: 1.05;
+    line-height: 1.5;
     letter-spacing: normal;
     color: var(--slate);
 }
@@ -113,13 +113,12 @@ font-size: 16px;
 
 .hero-title {
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 1.7;
     letter-spacing: normal;
     color: var(--white);
 }
 
 .hero-btn {
-    font-weight: 500px;
     height: 56px;
     left: 636px;
     top: 428px;
@@ -127,7 +126,7 @@ font-size: 16px;
     font-size: 16px;
     letter-spacing: normal;
     color: var(--white);
-    background: var(---iris);
+    background: var(--iris);
     cursor: pointer;
 }
 
@@ -149,14 +148,14 @@ display: flex;
 
 .Feature-hero {
     font-size: 20px;
-    line-height: 1.02;
+    line-height: 1.2;
     letter-spacing: normal;
     color: var(--navyblue);
 }
 
 .Feature-options {
     font-size: 16px;
-    line-height: 1.05;
+    line-height: 1.5;
     letter-spacing: normal;
     color: var(--slate);
 }
@@ -199,14 +198,14 @@ background: var(--cloud)
 
 .name-team {
     font-size: 20px;
-    line-height: 1.02;
+    line-height: 1.2;
     letter-spacing: normal;
     color: var(--navyblue);
 }
 
 .team-skill {
     font-size: 16px;
-    line-height: 1.05;
+    line-height: 1.5;
     letter-spacing: normal;
     color: var(--slate)
 }
@@ -216,18 +215,21 @@ background: var(--cloud)
     font-family: var(--secondary-font);
     font-weight: 800;
     background: var(--navyblue);
+    letter-spacing: 0.03em
 }
 
 .down-logo {
+    letter-spacing: 0.03em;
     color: var(--cloud)
 }
 
 .footer-text {
     font-family: var(--primary-font);
     font-size: 16px;
-    line-height: 1.05;
-    letter-spacing: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--cloud)
+    
 }
 
 /* PORTFOLIO */
@@ -244,7 +246,7 @@ background: var(--cloud)
     letter-spacing: normal;
     cursor: pointer;
         padding: 12px 24px;
-        color: var(---iris);
+        color: var(--iris);
         background: var(--cornflower);
 }
 
