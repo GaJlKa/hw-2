@@ -192,7 +192,7 @@ display: flex;
 
 .Technologies img {}
 
-.our-team {
+.our-team-background {
     font-family: var(--primary-font);
 background: var(--cloud)
 }
@@ -243,7 +243,7 @@ background: var(--cloud)
 .footer-text {
     font-family: var(--primary-font);
     font-size: 16px;
-    line-height: 1.05;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--cloud)
     
@@ -259,17 +259,18 @@ background: var(--cloud)
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.05;
-    letter-spacing: normal;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
-        color: var(--iris);
-        background: var(--cornflower);
+    color: var(--iris);
+        background-color: var(--cloud);
+        
 }
 
 .button-filters :focus,
 .button-filters :hover{
-    background: var(--ocean) ;
     color: var(--white);
+    background-color: var(--ocean);
 }
 
 .section-nav{
