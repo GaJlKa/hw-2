@@ -80,7 +80,7 @@ button {
 .header-logs {
     font-weight: 500;
     font-size: 16px;
-    line-height: 1.05;
+    line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
     color: var(--navyblue);
@@ -94,7 +94,7 @@ button {
 .header-address {
     font-style: normal;
 font-size: 16px;
-    line-height: 1.05;
+    line-height: 1.5;
     letter-spacing: normal;
     color: var(--slate);
 }
@@ -123,7 +123,7 @@ font-size: 16px;
 .hero-title {
     text-align: center;
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 1.7;
     letter-spacing: 0.02em;
     color: var(--white);
 }
@@ -148,10 +148,9 @@ font-size: 16px;
     
 }
 
-.Feature-list {
-}
 
-.Feature-link {
+
+.feature-link {
 display: flex;
     width: 264px;
     flex-direction: column;
@@ -159,7 +158,7 @@ display: flex;
     gap: 8px;
 }
 
-.Feature-hero {
+.feature-hero {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -167,10 +166,10 @@ display: flex;
     color: var(--navyblue);
 }
 
-.Feature-options {
+.feature-options {
     font-size: 16px;
-    line-height: 1.05;
-    letter-spacing: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--slate);
 }
 
@@ -180,7 +179,7 @@ display: flex;
     font-weight: 700;
 }
 
-.Technologies-hero {
+.technologies-hero {
     font-size: 36px;
     line-height: 1.11;
     letter-spacing: 0.02em;
@@ -189,11 +188,10 @@ display: flex;
     color: var(--navyblue);
 }
 
-.Technologies-list {}
+.technologies-list {}
 
-.Technologies {}
+.technologies {}
 
-.Technologies img {}
 
 .our-team-background {
     font-family: var(--primary-font);
@@ -271,8 +269,16 @@ background: var(--cloud)
         
 }
 
+.filters {
+
+}
+
 .button-filters :focus,
 .button-filters :hover{
+    color: var(--white);
+}
+.button-filters :hover,
+.button-filters :focus{
     color: var(--white);
     background-color: var(--ocean);
 }
@@ -281,22 +287,20 @@ background: var(--cloud)
     justify-content: center;
 }
 .section-item{
+    font-weight: 500;
     font-size: 20px;
-        line-height: 1.02;
-        letter-spacing: normal;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
         color: var(--navyblue);
 }
 .section-link{
         font-size: 16px;
-        line-height: 1.05;
-        letter-spacing: 0.32px;
+        line-height: 1.5;
+        letter-spacing: 0.02px;
         color: var(--slate)
 }
 .section-row{
     
 }
 
-.finger{
-   
-}
 
