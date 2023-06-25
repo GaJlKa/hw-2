@@ -280,10 +280,7 @@ background: var(--cloud)
 
 }
 
-.button-filters :focus,
-.button-filters :hover{
-    color: var(--white);
-}
+
 .button-filters :hover,
 .button-filters :focus{
     color: var(--white);
