@@ -153,7 +153,7 @@ font-size: 16px;
 
 
 
-.feature-link {
+.feature-list-fool {
 display: flex;
     width: 264px;
     flex-direction: column;
@@ -173,7 +173,7 @@ display: flex;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slat);
+    color: var(--slate);
     background-color: var(--white);
 }
 
@@ -301,7 +301,7 @@ background: var(--cloud)
         letter-spacing: 0.02em;
         color: var(--navyblue);
 }
-.section-link{
+.section-row{
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02px;
