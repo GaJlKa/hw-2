@@ -19,6 +19,7 @@
 body {
     font-family: var(--primary-font);
 background-color: var(--white);
+color: var(--slate);
     text-decoration: none;
     list-style-type: none;
     list-style: none
@@ -54,12 +55,12 @@ button {
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
-    letter-spacing: normal;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--iris);
 }
 
-.studio {
+.logo-2 {
     color: var(--navyblue);
 }
 
@@ -76,16 +77,24 @@ button {
     
 }
 
-.header-link {
+.header-logs {
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: normal;
+    line-height: 1.05;
+    letter-spacing: 0.02em;
+    text-decoration: none;
     color: var(--navyblue);
 }
 
+.header-logs:hover,
+.header-logs:focus {
+    color: var(--ocean);
+}
+
 .header-address {
+    font-style: normal;
 font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.05;
     letter-spacing: normal;
     color: var(--slate);
 }
@@ -112,22 +121,26 @@ font-size: 16px;
 }
 
 .hero-title {
+    text-align: center;
     font-size: 56px;
-    line-height: 1.7;
-    letter-spacing: normal;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
     color: var(--white);
 }
 
 .hero-btn {
-    height: 56px;
-    left: 636px;
-    top: 428px;
-    
+    font-weight: 500;
     font-size: 16px;
-    letter-spacing: normal;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     color: var(--white);
     background: var(--iris);
     cursor: pointer;
+}
+
+.hero-btn:hover,
+.hero-btn:focus{
+    background-color: var(--ocean)
 }
 
 /* feature */
@@ -148,14 +161,14 @@ display: flex;
 
 .Feature-hero {
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.02;
     letter-spacing: normal;
     color: var(--navyblue);
 }
 
 .Feature-options {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.05;
     letter-spacing: normal;
     color: var(--slate);
 }
@@ -202,14 +215,14 @@ background: var(--cloud)
 
 .name-team {
     font-size: 20px;
-    line-height: 1.2;
+    line-height: 1.02;
     letter-spacing: normal;
     color: var(--navyblue);
 }
 
 .team-skill {
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.05;
     letter-spacing: normal;
     color: var(--slate)
 }
@@ -230,7 +243,7 @@ background: var(--cloud)
 .footer-text {
     font-family: var(--primary-font);
     font-size: 16px;
-    line-height: 1.5;
+    line-height: 1.05;
     letter-spacing: 0.02em;
     color: var(--cloud)
     
@@ -249,7 +262,6 @@ background: var(--cloud)
     line-height: 1.05;
     letter-spacing: normal;
     cursor: pointer;
-        padding: 12px 24px;
         color: var(--iris);
         background: var(--cornflower);
 }
