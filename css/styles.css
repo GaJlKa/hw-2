@@ -160,9 +160,10 @@ display: flex;
 }
 
 .Feature-hero {
+    font-weight: 500;
     font-size: 20px;
-    line-height: 1.02;
-    letter-spacing: normal;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--navyblue);
 }
 
@@ -182,7 +183,9 @@ display: flex;
 .Technologies-hero {
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: normal;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
     color: var(--navyblue);
 }
 
@@ -214,16 +217,17 @@ background: var(--cloud)
 .team-work img {}
 
 .name-team {
+    font-weight: 500;
     font-size: 20px;
-    line-height: 1.02;
-    letter-spacing: normal;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
     color: var(--navyblue);
 }
 
 .team-skill {
     font-size: 16px;
-    line-height: 1.05;
-    letter-spacing: normal;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--slate)
 }
 
