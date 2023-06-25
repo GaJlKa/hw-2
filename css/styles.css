@@ -103,13 +103,13 @@ font-size: 16px;
     color: var(--slate);
 }
 
-.header-page {
-    
+.header-address-contacts:hover,
+.header-address-contacts:focus{
+    color: var(--ocean);
 }
 
-.header-address:hover,
-.header-address:focus {
-    color: var(--ocean);
+.header-page {
+    
 }
 
 
