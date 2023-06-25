@@ -59,7 +59,13 @@ button {
 }
 
 .logo-2 {
-    color: var(--navyblue);
+    color: var(--navyblue, #2E2F42);
+        font-size: 18px;
+        font-family: var(--secondary-font);
+        font-weight: 800;
+        line-height: 21px;
+        letter-spacing: 0.54px;
+        text-transform: uppercase;
 }
 
 
@@ -134,7 +140,6 @@ font-size: 16px;
     letter-spacing: 0.04em;
     color: var(--white);
     background: var(--iris);
-    cursor: pointer;
 }
 
 .hero-btn:hover,
@@ -143,7 +148,7 @@ font-size: 16px;
 }
 
 /* feature */
-.feature {
+.feature-list {
         font-weight: 500;
         font-size: 20px;
         line-height: 1.2;
@@ -154,11 +159,7 @@ font-size: 16px;
 
 
 .feature-list-fool {
-display: flex;
-    width: 264px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
+    font-weight: 264px;
 }
 
 .feature-hero {
@@ -276,7 +277,7 @@ background: var(--cloud)
         
 }
 
-.filters {
+.sections-filters {
 
 }
 
@@ -290,7 +291,7 @@ background: var(--cloud)
     background-color: var(--ocean);
 }
 
-.section-nav{
+.section-list{
     justify-content: center;
 }
 .section-item{
