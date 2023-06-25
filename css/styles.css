@@ -66,9 +66,10 @@ button {
 
 
 .header-nav {
-
+list-style: none;
+text-decoration: none;
 }
-.header-list {
+.header-var {
   font-style: normal;
 }
 
@@ -123,7 +124,7 @@ font-size: 16px;
 .hero-title {
     text-align: center;
     font-size: 56px;
-    line-height: 1.7;
+    line-height: 1.07;
     letter-spacing: 0.02em;
     color: var(--white);
 }
