@@ -273,6 +273,7 @@ background: var(--cloud)
     color: var(--iris);
         background-color: var(--cloud);
     cursor: pointer;
+    text-align: center;
 }
 
 .sections-filters {
