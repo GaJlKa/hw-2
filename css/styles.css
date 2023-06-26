@@ -90,8 +90,8 @@ text-decoration: none;
     color: var(--navyblue);
 }
 
-.header-logs:hover,
-.header-logs:focus {
+.header-link:hover,
+.header-link:focus {
     color: var(--ocean);
 }
 
@@ -245,6 +245,10 @@ background: var(--cloud)
     font-size: 18px;
     line-height: 1.17;
     text-transform: uppercase;
+}
+
+.logo-link{
+    color: var(--iris);
 }
 
 .down-logo {
