@@ -264,7 +264,7 @@ background: var(--cloud)
    
 }
 
-.button-section{
+.button-filters{
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
@@ -273,7 +273,6 @@ background: var(--cloud)
     color: var(--iris);
         background-color: var(--cloud);
     cursor: pointer;
-    text-align: center;
 }
 
 .sections-filters {
