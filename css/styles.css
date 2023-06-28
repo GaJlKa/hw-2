@@ -65,6 +65,7 @@ button {
         line-height: 21px;
         letter-spacing: 0.54px;
         text-transform: uppercase;
+        
 }
 
 
@@ -111,6 +112,7 @@ font-size: 16px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
+        text-decoration: none;
 }
 
 .header-address-contacts:hover,
@@ -289,7 +291,6 @@ background: var(--cloud)
     letter-spacing: 0.04em;
     color: var(--iris);
         background-color: var(--cloud);
-    cursor: pointer;
 }
 
 .sections-filters {
@@ -297,9 +298,8 @@ background: var(--cloud)
 }
 
 
-.button-filters :hover,
-.button-filters :focus{
-    color: var(--white);
+.button-filters:hover,
+.button-filters:focus{
     background-color: var(--ocean);
 }
 
@@ -318,12 +318,10 @@ background: var(--cloud)
 .section-row{
         font-size: 16px;
         line-height: 1.5;
-        letter-spacing: 0.02px;
+        letter-spacing: 0.02em;
         color: var(--slate);
         background-color: var(--white);
-}
-.section-row{
-    
+        
 }
 
 
