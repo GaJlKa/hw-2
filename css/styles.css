@@ -96,7 +96,7 @@ text-decoration: none;
     color: var(--ocean);
 }
 
-.address-link {
+.address-list {
     font-style: normal
 }
 
@@ -300,6 +300,7 @@ background: var(--cloud)
 
 .button-filters:hover,
 .button-filters:focus{
+    color: var(--white);
     background-color: var(--ocean);
 }
 
