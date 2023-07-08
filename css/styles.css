@@ -20,8 +20,6 @@ body {
     font-family: var(--primary-font);
 background-color: var(--white);
 color: var(--slate);
-    text-decoration: none;
-    list-style: none
 }
 
 /* reset */
@@ -42,7 +40,6 @@ button {
 
 /* Header */
 .header {
-   background: #E7E9FC;
 }
 
 
@@ -59,12 +56,6 @@ button {
 
 .logo-two {
     color: var(--navyblue);
-    font-weight: 800;
-        font-size: 18px;
-        line-height: 1.17;
-        letter-spacing: 0.03em;
-        font-family: var(--secondary-font);
-        text-transform: uppercase;
         
 }
 
@@ -87,7 +78,6 @@ text-decoration: none;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    text-decoration: none;
     color: var(--navyblue);
 }
 
@@ -112,7 +102,6 @@ font-size: 16px;
         font-size: 16px;
         line-height: 1.5;
         letter-spacing: 0.02em;
-        text-decoration: none;
 }
 
 .header-address-contacts:hover,
@@ -160,11 +149,7 @@ font-size: 16px;
 
 /* feature */
 .feature-list {
-        font-weight: 500;
-        font-size: 20px;
-        line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: var(--navyblue)
+
 }
 
 
@@ -186,7 +171,6 @@ font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
-    background-color: var(--white);
 }
 
 /* Technologies */
@@ -236,27 +220,19 @@ background: var(--cloud)
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navyblue);
-    background: var(--cloud);
 }
 
 .team-skill {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: var(--slate);
-    background: var(--cloud);
-    
+    color: var(--slate);   
 }
 
 /* Footer */
 .footer {
-    font-family: var(--secondary-font);
-    font-weight: 800;
     background: var(--navyblue);
-    letter-spacing: 0.03em;
-    font-size: 18px;
-    line-height: 1.17;
-    text-transform: uppercase;
+
 }
 
 .logo-link{
@@ -264,7 +240,6 @@ background: var(--cloud)
 }
 
 .down-logo {
-    letter-spacing: 0.03em;
     color: var(--cloud)
 }
 
