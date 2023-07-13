@@ -236,10 +236,22 @@ background: var(--cloud)
 }
 
 .logo-link{
+    font-family: var(--secondary-font);
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
     color: var(--iris);
 }
 
 .down-logo {
+    font-family: var(--secondary-font);
+        font-weight: 800;
+        font-size: 18px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
     color: var(--cloud)
 }
 
